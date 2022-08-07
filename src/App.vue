@@ -28,6 +28,10 @@
   <p>-------------------------------------------------------------</p>
   <Component14 />
   <p>-------------------------------------------------------------</p>
+  <Component15 />
+  <p>-------------------------------------------------------------</p>
+  <Component16 />
+  <p>-------------------------------------------------------------</p>
 </template>
 
 <script>
@@ -45,6 +49,8 @@ import Component11 from "./components/Component11.vue";
 import Component12 from "./components/Component12.vue";
 import Component13 from "./components/Component13.vue";
 import Component14 from "./components/Component14.vue";
+import Component15 from "./components/Component15.vue";
+import Component16 from "./components/Component16.vue";
 
 export default {
   name: "App",
@@ -63,6 +69,8 @@ export default {
     Component12,
     Component13,
     Component14,
+    Component15,
+    Component16,
   },
   data() {
     return {
